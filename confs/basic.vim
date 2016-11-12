@@ -1,3 +1,5 @@
+filetype plugin indent on
+
 set nobackup                "no backup file"
 set nowritebackup
 set noswapfile              "no swap file"
