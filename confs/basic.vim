@@ -24,7 +24,7 @@ set encoding=utf8 nobomb
 set termencoding=utf-8
 set noeol
 set fileencoding=utf-8
-set fileencodings=utf-8
+set fileencodings=utf-8,ucs-bom,latin1
 
 
 set expandtab
