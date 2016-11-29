@@ -11,6 +11,9 @@ Plug 'https://github.com/vim-syntastic/syntastic'
 
 Plug 'https://github.com/skywind3000/asyncrun.vim'
 
+" for git in vim
+Plug 'https://github.com/tpope/vim-fugitive'
+
 for f in split(glob('~/.vim/confs/_plugins/*.vim'), '\n')
     exe 'source' f
 endfor
