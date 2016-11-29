@@ -42,8 +42,15 @@ set backspace=eol,start,indent
     set cursorline
 set ttyfast
 
+"""""""""""""""""""" window
+set splitbelow
+set splitright
 
-""""""""""""""""""""""""""" Search """""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""" fold
+set foldmethod=syntax           " indent is ok
+set foldlevel=99
+
+"""""""""""""""""""" search
 set ignorecase
 set smartcase
 set hlsearch
@@ -61,8 +68,7 @@ nnoremap / /\v
 vnoremap / /\v
 
 
-"Wildmenu completion {{{ "
-
+"Wildmenu completion {{{
 set wildmenu
 set wildmode=list:longest
 
@@ -84,5 +90,9 @@ set wildignore+=*.orig                           " Merge resolution files
 " Clojure/Leiningen
 set wildignore+=classes
 set wildignore+=lib
-
 "}}}"
+
+"""""""""""""""""" knowledge
+"buffer
+    " : buffer $bufferNameOrNumber
+    " :ls

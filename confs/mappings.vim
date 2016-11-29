@@ -2,7 +2,6 @@ nnoremap <leader>r :edit!<cr>                       "自动加载修改过的文
 nnoremap <leader>" viw<esc>a"<esc>hbi"<esc>lel      "normal 下自动生成双引号"
 
 
-"使用 zz 这个命令, 让光标每次都能停留在屏幕中央"
 noremap j gj
 noremap k gk
 noremap gj j
@@ -44,7 +43,8 @@ nnoremap <left>  :cprev<cr>zvzz
 nnoremap <right> :cnext<cr>zvzz
 nnoremap <up>    :lprev<cr>zvzz
 nnoremap <down>  :lnext<cr>zvzz
-
+" 折叠代码
+nnoremap <space> za
 
 "Other"
 nnoremap U <c-r>
