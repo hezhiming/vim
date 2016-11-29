@@ -24,7 +24,7 @@ augroup color_badwolf_dev
     au BufWritePost goodwolf.vim color goodwolf
 augroup END
 
-" 打开上次编辑的地方
+" Open last edit
 autocmd BufReadPost *
       \ if line("'\"") > 0 && line("'\"") <= line("$") |
      \   exe "normal! g`\"" |
