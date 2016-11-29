@@ -12,6 +12,10 @@ au BufNewFile,BufRead *.py
     \ set fileformat=unix
 "  }}}
 
+"  {{{
+    " auto add python file header
+"  }}
+
 " Only show cursorline in the current window and in normal mode.
 augroup cline
     au!

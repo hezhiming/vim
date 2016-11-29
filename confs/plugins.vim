@@ -4,11 +4,16 @@ Plug 'https://github.com/kien/ctrlp.vim'
 
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'https://github.com/majutsushi/tagbar'
+Plug 'https://github.com/scrooloose/nerdcommenter'
 
+
+" theme
 Plug 'https://github.com/vim-airline/vim-airline'
 
+" syntax highlight
 Plug 'https://github.com/vim-syntastic/syntastic'
 
+" run, make
 Plug 'https://github.com/skywind3000/asyncrun.vim'
 
 " for git in vim
