@@ -7,7 +7,7 @@ set novisualbell
 set noerrorbells
 set paste
 set number
-set mouse=a                 "enable mouse"
+set mouse=c                 "enable mouse"
 set history=1000
 set autoread
 set lazyredraw
