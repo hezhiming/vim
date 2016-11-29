@@ -15,6 +15,7 @@ Plug 'https://github.com/vim-syntastic/syntastic'
 
 " run, make
 Plug 'https://github.com/skywind3000/asyncrun.vim'
+Plug 'https://github.com/thinca/vim-quickrun'
 
 " for git in vim
 Plug 'https://github.com/tpope/vim-fugitive'
