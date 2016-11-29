@@ -1,4 +1,5 @@
 nnoremap <leader>sv :source $MYVIMRC<cr>            "reload .vimrc"
+nnoremap <leader>r :edit!<cr>                       "自动加载修改过的文件"
 nnoremap <leader>" viw<esc>a"<esc>hbi"<esc>lel      "normal 下自动生成双引号"
 
 

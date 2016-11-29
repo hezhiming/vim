@@ -15,8 +15,9 @@ set lazyredraw
 syntax enable
 set title
 set t_Co=256
+set laststatus=2
 set background=dark
-colorscheme peaksea
+colorscheme Tomorrow-Night
 set title
 
 set encoding=utf8 nobomb
@@ -37,7 +38,7 @@ set backspace=eol,start,indent
     set smartindent
     set wrap
     set ruler
-    set colorcolumn=101
+    "set colorcolumn=101
     set cursorline
 set ttyfast
 
