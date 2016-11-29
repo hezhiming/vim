@@ -1,6 +1,17 @@
 " Save when losing focus
 au FocusLost * :silent! wall
 
+"  {{{
+au BufNewFile,BufRead *.py
+    \ set tabstop=4
+    \ set softtabstop=4
+    \ set shiftwidth=4
+    \ set textwidth=79
+    \ set expandtab
+    \ set autoindent
+    \ set fileformat=unix
+"  }}}
+
 " Only show cursorline in the current window and in normal mode.
 augroup cline
     au!
