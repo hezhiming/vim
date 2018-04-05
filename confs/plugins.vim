@@ -21,6 +21,7 @@ Plug 'https://github.com/thinca/vim-quickrun'
 Plug 'https://github.com/tpope/vim-fugitive'
 Plug 'https://github.com/airblade/vim-gitgutter'
 
+" LOAD ALL PLUGIN CONFIGS
 for f in split(glob('~/.vim/confs/_plugins/*.vim'), '\n')
     exe 'source' f
 endfor
