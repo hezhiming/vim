@@ -2,9 +2,7 @@
 au FocusLost * :silent! wall
 
 
-"  {{{
-    " auto add python file header
-"  }}
+
 
 " Only show cursorline in the current window and in normal mode.
 augroup cline

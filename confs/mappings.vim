@@ -1,11 +1,7 @@
-nnoremap <leader>r :edit!<cr>                       "自动加载修改过的文件"
 nnoremap <leader>" viw<esc>a"<esc>hbi"<esc>lel      "normal 下自动生成双引号"
 
 
-noremap j gj
-noremap k gk
-noremap gj j
-noremap gk k
+
 nnoremap <c-e> 2<c-e>
 nnoremap <c-y> 2<c-y>
         set scrolloff=3
@@ -18,6 +14,7 @@ nnoremap <c-y> 2<c-y>
     nnoremap <silent> * *zz
     nnoremap <silent> # #zz
     nnoremap <silent> g* g*zz
+
 " Keep search matches in the middle of the window.
 nnoremap n nzzzv
 nnoremap N Nzzzv
@@ -30,21 +27,18 @@ nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
     set hidden
     set tabpagemax=10
-" 在Tab标签页之间移动"
-nnoremap H gT  "上一个/下一个标签页移动快捷键"
-nnoremap L gt
-"在 buffer 之间移动"
+
+
+"在 buffer（标签页） 之间移动"
 nnoremap bn :bnext<cr>
 nnoremap bp :bprevious<cr>
 nnoremap bd :bdelete<cr>
 nnoremap <leader>bl :ls<CR>
-" List navigation
-nnoremap <left>  :cprev<cr>zvzz
-nnoremap <right> :cnext<cr>zvzz
-nnoremap <up>    :lprev<cr>zvzz
-nnoremap <down>  :lnext<cr>zvzz
+
+
 " 折叠代码
 nnoremap <space> za
+
 
 "Other"
 nnoremap U <c-r>
