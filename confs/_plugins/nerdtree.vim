@@ -1,5 +1,3 @@
-noremap  <F2> :NERDTreeToggle<cr>
-inoremap <F2> <esc>:NERDTreeToggle<cr>
 
 augroup ps_nerdtree
     au!
